@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planatorium</title>
+        <style>
+            .planets1{
+                margin-top: 40px;
+            }
+            .planets2{
+                margin-left: 200px;
+                margin-top: 20px;
+            }
+            span{
+                color: white;
+            }
+            .planets{
+                cursor: pointer;
+            }
+
+            .sun-papa {
+                margin-left: 37vw;
+                margin-top: 40px;
+            }
+
+            .sun-papa img{
+                width: 400px;
+                animation: rotateSun 10s linear infinite;
+            }
+
+            @keyframes rotateSun {
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body bgcolor="black">
+        <font color="white" align="center">
+            <h1>Planatorium</h1>
+        </font>
+        <hr />
+        <marquee behavior="slide" direction="right" scrollamount="30">
+            <div class="planets1">
+                <a href="/planets/mercury.html" class="planets">
+                    <img src="/planets-images-vector/mercury-vector.png" alt="mercury" title="Mercury" width="300px">
+                </a>
+                <span><--Mercury</span>
+                <a href="/planets/venus.html" class="planets">
+                    <img src="/planets-images-vector/venus-vector.png" alt="venus" title="Venus" width="300px">
+                </a>
+                <span><--Venus</span>
+                <a href="/planets/earth.html" class="planets">
+                    <img src="/planets-images-vector/earth-vector.png" alt="earth" title="Earth" width="300px">
+                </a>
+                <span><--Earth</span>
+                <a href="/planets/mars.html" class="planets">
+                    <img src="/planets-images-vector/mars-vector.png" alt="mars" title="Mars" width="300px">
+                </a>
+                <span><--Mars</span>
+                <a href="/planets/jupiter.html" class="planets">
+                    <img src="/planets-images-vector/jupiter-vector.png" alt="jupiter" title="Jupiter" width="300px">
+                </a>
+                <span><--Jupiter</span>
+             </div>
+        </marquee>
+        <marquee behavior="slide" scrollamount="50">
+            <div class="sun-papa">
+                <a href="/wild-card/sun.html">
+                    <img src="/wild-card/sun-vector.png" title="Sun" alt="sun">
+                </a>
+            </div>
+        </marquee>
+        
+        <marquee behavior="slide" direction="" scrollamount="30">
+            <div class="planets2">
+                <a href="/planets/saturn.html" class="planets">
+                    <img src="/planets-images-vector/saturn-vector.png" alt="saturn" title="Saturn" width="300px">
+                </a>
+                <span><--Saturn</span>
+                <a href="/planets/uranus.html" class="planets">
+                    <img src="/planets-images-vector/uranus-vector.png" alt="uranus" title="Uranus" width="300px">
+                </a>
+                <span><--Uranus</span>
+                <a href="/planets/neptune.html" class="planets">
+                    <img src="/planets-images-vector/neptune-vector.png" alt="neptune" title="Neptune" width="300px">
+                </a>
+                <span><--Neptune</span>
+                <a href="/planets/pluto.html" class="planets">
+                    <img src="/planets-images-vector/pluto-vector.png" alt="pluto" title="Pluto" width="300px">
+                </a>
+                <span><--Pluto</span>
+             </div>
+        </marquee>        
+    </body>
+</html>

@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.earth {
+    margin-left: 36vw;
+}
+
+h2,
+h3,
+pre {
+    color: white;
+}
+
+.content a{
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+    transition: background-color 0.3, color 0.3s;
+}
+
+.content a:hover{
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}

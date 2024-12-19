@@ -1,0 +1,11 @@
+flow to make planatorium
+
+1.create good structure for folders  (planets-images-vector and realistic, planets) - done
+2.download all images of planets and put it in planet-images folder - done
+3.start to create website index.html - done
+4.create (allPlanets).html in planets folder - done
+5.search information of each planet using chatgpt - done 
+6.add bookmark links in planet page - done 
+
+6.add sun the wild card - done
+
